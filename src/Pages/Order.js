@@ -18,13 +18,13 @@ const Order = () => {
                       <Col>
                         <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                           <Form.Label>First Name</Form.Label>
-                          <Form.Control type="email" placeholder="First Name" />
+                          <Form.Control type="email" placeholder="Vincent" />
                         </Form.Group>
                       </Col>
                       <Col>
                         <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                           <Form.Label>Last Name</Form.Label>
-                          <Form.Control type="email" placeholder="Last Name" />
+                          <Form.Control type="email" placeholder="Gomez" />
                         </Form.Group>
                       </Col>
                     </Row>
@@ -32,7 +32,7 @@ const Order = () => {
                       <Col>
                       <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                           <Form.Label>Phone Number</Form.Label>
-                          <Form.Control type="email" placeholder="Phone Number" />
+                          <Form.Control type="email" placeholder=" 8080808080" />
                         </Form.Group>
                       </Col>
                       <Col>
@@ -53,7 +53,7 @@ const Order = () => {
                 
             </Row>
             <div className="text-center">
-          <Button variant="primary">Submitt</Button>
+          
         </div>
             <Row >
             <h1 className="text-center">payment</h1>
