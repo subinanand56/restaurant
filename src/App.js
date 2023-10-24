@@ -1,18 +1,20 @@
-import './App.css';
-import { Contact } from './Pages/Contact';
-import Footer from './Pages/Footer';
+
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Menu from './Pages/Menu';
 import Order from './Pages/Order';
+
 function App() {
   return (
-    <>
-    {/* <Menu/> */}
-   {/* <Contact/>
-    <Footer/> */}
-    <Order/>
-    </>
-   
+    <BrowserRouter>
+      <Routes>
+      
+      <Route exact path="/" element={<Menu/>} /> 
+      <Route exact path="/order" element={<Order/>} /> 
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+

@@ -7,10 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 const Order = () => {
 
-    
-
   return (
-    <section>
+    <section id="order">
         <h1 className="text-center">Order data</h1>
         <Container>
             <Row className="justify-content-center"> 

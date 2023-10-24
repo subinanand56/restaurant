@@ -133,3 +133,95 @@ export const MenuList = [
     price: 500,
   },
 ];
+export const Breakfast = [
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+  {
+    name: "Idli",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Idli,
+    price: 150,
+  },
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+];
+export const Lunch = [
+  {
+    name: "Gujrati",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Gujrati,
+    price: 500,
+  },
+  {
+    name: "Paneer",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Paneer,
+    price: 400,
+  },
+  {
+    name: "Gujrati",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Gujrati,
+    price: 500,
+  },
+];
+export const Dinner = [
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+  {
+    name: "Idli",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Idli,
+    price: 150,
+  },
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+];
+export const Drink = [
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+  {
+    name: "Idli",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Idli,
+    price: 150,
+  },
+  {
+    name: "Masala Dosa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: MasalaDosa,
+    price: 100,
+  },
+];
