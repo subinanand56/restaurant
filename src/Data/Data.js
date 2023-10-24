@@ -1,9 +1,9 @@
-import Dosa from "../../assets/dosa.jpg";
-import Chola from "../../assets/chhola.jpg";
-import Idli from "../../assets/idli.jpg";
-import MasalaDosa from "../../assets/masala.jpg";
-import Paneer from "../../assets/paneer.jpg";
-import Gujrati from "../../assets/gujrati.jpeg";
+import Dosa from ".././assets/dosa.jpg";
+import Chola from ".././assets/chhola.jpg";
+import Idli from ".././assets/idli.jpg";
+import MasalaDosa from ".././assets/masala.jpg";
+import Paneer from ".././assets/paneer.jpg";
+import Gujrati from ".././assets/gujrati.jpeg";
 
 export const MenuList = [
   {

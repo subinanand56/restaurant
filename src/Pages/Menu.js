@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuList, Breakfast, Lunch, Dinner, Drink } from "../Pages/Data/Data";
+import { MenuList, Breakfast, Lunch, Dinner, Drink } from "../Data/Data";
 import { Tab, Nav, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
