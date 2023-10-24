@@ -2,6 +2,7 @@ import React from "react";
 import { MenuList, Breakfast, Lunch, Dinner, Drink } from "../Pages/Data/Data";
 import { Tab, Nav, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Menu = () => {
   const itemsPerRow = 3;
@@ -30,31 +31,31 @@ const Menu = () => {
   );
 
   const renderMenuCategory = (menuItems) => (
-    <Row  style={{ marginTop: "30" }}>
+    <Row style={{ marginTop: "30" }}>
       {menuItems.map((menu) => renderMenuItem(menu))}
     </Row>
   );
 
   return (
-    <section>
-    
-      <h1 style={{ textAlign: "center" , marginBottom: "40px"}}>Menu</h1>
+    <div>
+    <section style={{ padding: "40px" }}> 
+      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Menu</h1>
       <Tab.Container id="projects-tabs" defaultActiveKey="first">
-        <Nav variant="pills" justify style={{ marginBottom: "60px" }}>
+        <Nav variant="pills" justify style={{ marginBottom: "50px", borderRadius: "15px" }}>
           <Nav.Item style={{ flex: 1 }}>
-            <Nav.Link eventKey="first">All Categories</Nav.Link>
+            <Nav.Link eventKey="first" style={{  borderRadius: "15px" }}>All Categories</Nav.Link>
           </Nav.Item>
           <Nav.Item style={{ flex: 1 }}>
-            <Nav.Link eventKey="second">Breakfast</Nav.Link>
+            <Nav.Link eventKey="second" style={{  borderRadius: "15px" }}>Breakfast</Nav.Link>
           </Nav.Item>
           <Nav.Item style={{ flex: 1 }}>
-            <Nav.Link eventKey="third">Lunch</Nav.Link>
+            <Nav.Link eventKey="third" style={{  borderRadius: "15px" }}>Lunch</Nav.Link>
           </Nav.Item>
           <Nav.Item style={{ flex: 1 }}>
-            <Nav.Link eventKey="fourth">Dinner</Nav.Link>
+            <Nav.Link eventKey="fourth" style={{ borderRadius: "15px" }}>Dinner</Nav.Link>
           </Nav.Item>
           <Nav.Item style={{ flex: 1 }}>
-            <Nav.Link eventKey="fifth">Drinks</Nav.Link>
+            <Nav.Link eventKey="fifth" style={{  borderRadius: "15px" }}>Drinks</Nav.Link>
           </Nav.Item>
         </Nav>
         <Tab.Content>
@@ -89,7 +90,9 @@ const Menu = () => {
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>
-      </section>
+    </section>
+    <Footer/>
+    </div>
   );
 };
 
