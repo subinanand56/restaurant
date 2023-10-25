@@ -39,7 +39,7 @@ const Menu = () => {
   return (
     <div>
     <section style={{ padding: "40px" }}> 
-      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Menu</h1>
+      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Over Menu</h1>
       <Tab.Container id="projects-tabs" defaultActiveKey="first">
         <Nav variant="pills" justify style={{ marginBottom: "50px", borderRadius: "15px" }}>
           <Nav.Item style={{ flex: 1 }}>

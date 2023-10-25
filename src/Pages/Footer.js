@@ -1,99 +1,72 @@
-import React from "react";
-// import images from "../assets/res-logo.png";
-import styled from "styled-components"; 
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import React from 'react'
 
+import { Phone , Mail , Map  ,Instagram , Facebook , Linkedin ,Twitter} from 'lucide-react'
+import styled from 'styled-components'
 const Footer = () => {
   return (
     <FooterContainer>
-    <div className="app__footer section__padding" id="login">
-    <div className="app__footer-links">
-      <div className="app__footer-links_logo">
-        <h1>Company logo</h1>
-        {/* <img src={images} alt="footer_logo" /> */}
-        <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
-        
-        <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+    <div className='FooterMain'>
+        <div className="contact">
+            <h1>Contact</h1>
+            <h2 className="addre">
+                <Phone size={30} color='green'/> +91-9999-888-777
+            </h2>
+            <h2 className="addre">
+                       <Mail size={30} color='red'/> RandomCook@gmail.com
+            </h2>
+            <h2 className="addre">
+              <Map size={30} color='blue'/>Jayanagar, Bengaluru, Karnataka 560041
+            </h2>
         </div>
-      </div>
+        <div className="Address">
+            <h1>Social Media</h1>
+            <h2 className="addre"><Instagram size={30} color='red'/> @RandomCook</h2>
+            <h2 className="addre"><Facebook size={30} color='blue' /> @RandomCook</h2>
+            <h2 className="addre">
+                       <Linkedin size={30} color='blue'/> @RandomCook
+            </h2>
+            
+            <h2 className="addre"><Twitter size={30} color='blue' /> @RandomCook</h2>
+        </div>
     </div>
-    <div className="footer__copyright">
-      <p className="p__opensans">2023 Company name. All Rights reserved.</p>
-    </div>
-
-  </div>
     </FooterContainer>
-  );
-};
-const FooterContainer=styled.div`
-.app__footer {
-    background-color: bisque;
-    width: 100%;
-    position: relative;
-    z-index: 1;
+  )
+}
+const FooterContainer =styled.div`
+.FooterMain {
+    background-color: #f2f2f2;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
-    padding-top: 0;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
 }
-.app__footer-links {
-    width: 100%;
+
+.contact {
+    width: 330px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
 }
 
-.app__footer-links_logo {
-    flex: 1;
-    margin: 1rem;
-    text-align: center;
+.Address {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
 }
 
-.app__footer-links_logo img:first-child {
-    width: 210px;
-    margin-bottom: 0.75rem;
-}
-.app__footer-links_icons svg {
-    color: var(--color-white);
-    margin: 0.5rem;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.app__footer-links_icons svg:hover {
-    color: var(--color-golden);
-}
-
-@media screen and (max-width: 1150px) {
-    .app__footer-links {
-        align-items: center;
-        flex-direction: column;
-        padding: 0;
-    }
-
-   
-    .app__footer-links_logo
-     {
-        margin: 2rem 0;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .app__footer {
-        padding: 0 0 2rem 0;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .app__footer-links_logo img:first-child {
-        width: 80%;
-    }
-}
-
-`
-export default Footer;
+.addre {
+    font-size: 15px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}`
+export default Footer
